@@ -1,0 +1,41 @@
+.contact {
+    font-family: calibri;
+    width: 500px;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    transform: translate(-20%, -50%);
+}
+
+.contact h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #fffafa;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    margin: 6px 12px;
+}
+
+.social i {
+    color: #17d1ac;
+    font-size: 34px;
+}
+
+.social a:hover i {
+    color: #02491a;
+    transition: all ease 0.5s;
+}
+
+.info {
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(253, 253, 253, 0);
+}

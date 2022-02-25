@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    width: 99%;
+    border-bottom: solid #17d1ac;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(116, 116, 116);
+}
+
+li {
+    float: left;
+}
+
+.inactivenav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.inactivenav:hover {
+    background-color: #03837c;
+}
+
+.activenav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #043d3a;
+}
